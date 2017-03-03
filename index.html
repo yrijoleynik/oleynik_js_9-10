@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery.selectBox.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/jquery.jcarousel.js"></script>
+    <script src="js/jquery.selectBox.js"></script>
+    <script src="js/jquery.chekbox.js"></script>
+    <script src="js/jquery.color.js"></script>
+    <script src="js/script.js"></script>
+    <title>Yurij Oleynik js_5</title>
+</head>
+
+<body>
+
+
+    <div class="wraper-carousel">
+        <div class="jcarousel">
+            <ul>
+                <li><img src="image/01.jpg" alt="img1"></li>
+                <li><img src="image/02.jpg" alt="img2"></li>
+                <li><img src="image/03.jpg" alt="img3"></li>
+                <li><img src="image/04.jpg" alt="img4"></li>
+                <li><img src="image/05.jpg" alt="img5"></li>
+                <li><img src="image/06.jpg" alt="img6"></li>
+                <li><img src="image/07.jpg" alt="img7"></li>
+
+            </ul>
+        </div>
+        <a class="jcarousel-prev" href="#"><img src="image\arrow-left.png" alt=""></a>
+        <div class="jcarousel-pagination"></div>
+        <a class="jcarousel-next" href="#"><img src="image\arrow-right.png" alt=""></a>
+    </div>
+    <nav>
+        <ul class="menu">
+            <li><a href="">Пункт1</a></li>
+            <li><a href="">Пункт2</a></li>
+            <li class="drop_menu"><a href="">Пункт3</a>
+                <ul class="sub_menu">
+                    <li><a href="">Punkt1</a></li>
+                    <li><a href="">Punkt2</a></li>
+                    <li ><a href="">Punkt3</a></li>
+                    <li><a href="">Punkt4</a></li>
+                </ul>
+            </li>
+            <li class="drop_menu"><a href="">Пункт4</a>
+                <ul class="sub_menu">
+                    <li><a href="">Punkt1</a></li>
+                    <li><a href="">Punkt2</a></li>
+                    <li ><a href="">Punkt3</a></li>
+                    <li><a href="">Punkt4</a></li>
+                </ul>
+            </li>
+            <li><a href="">Пункт5</a></li>
+        </ul>
+    </nav>
+
+    <div class="wrapper_dropdawn">
+        <form action="">
+            <label for="standard-dropdown"><h3>Стилизованный "Select"</h3></label><br/>
+            <select id="standard-dropdown" name="standard-dropdown" class="custom-class1 custom-class2" style="width: 200px;">
+              <option value="1" class="test-class-1">Позиция 1 </option>
+              <option value="2" class="test-class-2" selected="selected">Позиция 2</option>
+              <option value="3" class="test-class-3">Позиция 3  ( тут будет очень длинная строка )
+              </option>
+              <option value="4" class="test-class-4">Позиция 4</option>
+              <option value="5" disabled="disabled">Позиция 5 (disabled)</option>
+              <option value="6">Позиция 6</option>
+              <option value="7">Позиция 7</option>
+              <option value="8">Позиция 8</option>
+              <option value="9">Позиция 9</option>
+              <option value="10">Позиция 10</option>
+              <option value="11">Позиция 11</option>
+              <option value="12">Позиция 12</option>
+              <option value="13">Позиция 13</option>
+              <option value="14">Позиция 14</option>
+              <option value="15">Позиция 15</option>
+              <option value="16">Позиция 16</option>
+              <option value="17">Позиция 17</option>
+              <option value="18">Позиция 18</option>
+              <option value="19">Позиция 19</option>
+              <option value="20">Позиция 20</option>
+          </select>
+        </form>
+    </div>
+
+
+    <div class="wrapper_chekbox">
+        <h3>Стилизованный "Checkbox"</h3>
+        <div>
+            <label for="ch1">Вариант №1</label>
+            <input type="checkbox" class="niceCheck" id="ch1" tabindex="1" />
+        </div>
+        <div>
+            <label for="ch2">Вариант №2</label>
+            <input type="checkbox" class="niceCheck" checked="checked" id="ch2" tabindex="2" value="2" />
+        </div>
+        <div>
+            <label for="ch3">Вариант №3</label>
+            <input type="checkbox" class="niceCheck" id="ch3" />
+        </div>
+
+        <h3>CSS "Checkbox"</h3>
+        <div class="check">
+            <input type="checkbox" id="test-check1" />
+            <label for="test-check1">Чекбокс 1:</label><br>
+            <input type="checkbox" id="test-check2" checked="checked" />
+            <label for="test-check2">Чекбокс 2:</label><br>
+            <input type="checkbox" id="test-check3" />
+            <label for="test-check3">Чекбокс 3:</label>
+
+
+        </div>
+
+
+
+    </div>
+    <div class="f"> hhhhhhhhhhhh</div>
+</body>
+
+</html>
