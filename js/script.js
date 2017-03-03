@@ -57,8 +57,8 @@ $(function() {
 
     });
     $('.drop_menu').hover(function () {
-      $(this).children('.sub_menu').slideDown(500);
+      $(this).children('.sub_menu').stop().slideDown(500);
     }, function () {
-      $(this).children('.sub_menu').slideUp(500);
+      $(this).children('.sub_menu').stop().slideUp(500);
     } );
 });
